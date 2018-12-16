@@ -10,9 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var customProgressBar: CustomProgressBar!
+    @IBOutlet weak var progressView: UIProgressView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        updateProgressBar(progress1: 10, progress2: 20)
+
+    }
+    
+    func updateProgressBar(progress1: Float, progress2: Float){
+        customProgressBar.progress1 = progress1
+        customProgressBar.progress2 = progress2
+        customProgressBar.setNeedsDisplay()
     }
 
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A748893221C607BE007D2808 /* CustomProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A748893121C607BE007D2808 /* CustomProgressBar.swift */; };
 		A7D22AF621C2588200F5CD2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D22AF521C2588200F5CD2C /* AppDelegate.swift */; };
 		A7D22AF821C2588200F5CD2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D22AF721C2588200F5CD2C /* ViewController.swift */; };
 		A7D22AFB21C2588200F5CD2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D22AF921C2588200F5CD2C /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		A7D22B0021C2588400F5CD2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D22AFE21C2588400F5CD2C /* LaunchScreen.storyboard */; };
 		A7D22B0B21C2588400F5CD2C /* CustomProgressBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D22B0A21C2588400F5CD2C /* CustomProgressBarTests.swift */; };
 		A7D22B1621C2588400F5CD2C /* CustomProgressBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D22B1521C2588400F5CD2C /* CustomProgressBarUITests.swift */; };
+		A7D22B2421C2676500F5CD2C /* Fab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D22B2321C2676500F5CD2C /* Fab.swift */; };
+		A7D22B2621C2825700F5CD2C /* PieGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D22B2521C2825700F5CD2C /* PieGraph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A748893121C607BE007D2808 /* CustomProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressBar.swift; sourceTree = "<group>"; };
 		A7D22AF221C2588200F5CD2C /* CustomProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D22AF521C2588200F5CD2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7D22AF721C2588200F5CD2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		A7D22B1121C2588400F5CD2C /* CustomProgressBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomProgressBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D22B1521C2588400F5CD2C /* CustomProgressBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressBarUITests.swift; sourceTree = "<group>"; };
 		A7D22B1721C2588400F5CD2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7D22B2321C2676500F5CD2C /* Fab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fab.swift; sourceTree = "<group>"; };
+		A7D22B2521C2825700F5CD2C /* PieGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieGraph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,12 @@
 				A7D22AF521C2588200F5CD2C /* AppDelegate.swift */,
 				A7D22AF721C2588200F5CD2C /* ViewController.swift */,
 				A7D22AF921C2588200F5CD2C /* Main.storyboard */,
+				A7D22B2521C2825700F5CD2C /* PieGraph.swift */,
+				A748893121C607BE007D2808 /* CustomProgressBar.swift */,
 				A7D22AFC21C2588400F5CD2C /* Assets.xcassets */,
 				A7D22AFE21C2588400F5CD2C /* LaunchScreen.storyboard */,
 				A7D22B0121C2588400F5CD2C /* Info.plist */,
+				A7D22B2321C2676500F5CD2C /* Fab.swift */,
 			);
 			path = CustomProgressBar;
 			sourceTree = "<group>";
@@ -257,6 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7D22AF821C2588200F5CD2C /* ViewController.swift in Sources */,
+				A7D22B2621C2825700F5CD2C /* PieGraph.swift in Sources */,
+				A7D22B2421C2676500F5CD2C /* Fab.swift in Sources */,
+				A748893221C607BE007D2808 /* CustomProgressBar.swift in Sources */,
 				A7D22AF621C2588200F5CD2C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
