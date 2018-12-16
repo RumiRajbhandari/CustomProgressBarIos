@@ -20,9 +20,9 @@ import UIKit
         }
     }
     
-    @IBInspectable var counter: Int = 5
-    @IBInspectable var outlineColor: UIColor = UIColor.blue
-    @IBInspectable var counterColor: UIColor = UIColor.orange
+     var outlineColor: UIColor = UIColor.blue
+    var counterColor: UIColor = UIColor.orange
+    @IBInspectable var progress = 0
     
     override func draw(_ rect: CGRect) {
         // 1

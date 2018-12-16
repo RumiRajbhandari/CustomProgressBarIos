@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A71E919521C6492400E8542F /* Screen Shot 2018-12-16 at 1.06.49 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = A71E919421C6492400E8542F /* Screen Shot 2018-12-16 at 1.06.49 PM.png */; };
 		A748893221C607BE007D2808 /* CustomProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A748893121C607BE007D2808 /* CustomProgressBar.swift */; };
 		A7D22AF621C2588200F5CD2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D22AF521C2588200F5CD2C /* AppDelegate.swift */; };
 		A7D22AF821C2588200F5CD2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D22AF721C2588200F5CD2C /* ViewController.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A71E919421C6492400E8542F /* Screen Shot 2018-12-16 at 1.06.49 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2018-12-16 at 1.06.49 PM.png"; sourceTree = "<group>"; };
 		A748893121C607BE007D2808 /* CustomProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressBar.swift; sourceTree = "<group>"; };
 		A7D22AF221C2588200F5CD2C /* CustomProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D22AF521C2588200F5CD2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A71E919321C648F000E8542F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A71E919421C6492400E8542F /* Screen Shot 2018-12-16 at 1.06.49 PM.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		A7D22AE921C2588200F5CD2C = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +122,7 @@
 				A7D22AFE21C2588400F5CD2C /* LaunchScreen.storyboard */,
 				A7D22B0121C2588400F5CD2C /* Info.plist */,
 				A7D22B2321C2676500F5CD2C /* Fab.swift */,
+				A71E919321C648F000E8542F /* images */,
 			);
 			path = CustomProgressBar;
 			sourceTree = "<group>";
@@ -240,6 +251,7 @@
 			files = (
 				A7D22B0021C2588400F5CD2C /* LaunchScreen.storyboard in Resources */,
 				A7D22AFD21C2588400F5CD2C /* Assets.xcassets in Resources */,
+				A71E919521C6492400E8542F /* Screen Shot 2018-12-16 at 1.06.49 PM.png in Resources */,
 				A7D22AFB21C2588200F5CD2C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
